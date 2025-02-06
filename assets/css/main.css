@@ -1205,6 +1205,13 @@ section,
   transition: all 0.3s ease-in-out;
 }
 
+.portfolio-content img {
+  width: 100%; /* Ensures responsiveness */
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image maintains aspect ratio while filling the container */
+}
+
+
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
   color: var(--accent-color);
